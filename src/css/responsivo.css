@@ -1,0 +1,25 @@
+@media(max-width: 1000px) {
+
+    body {
+        background: url('../images/bg-mobile.svg') no-repeat top center hsl(257, 40%, 49%);
+    }
+
+    main {
+        flex-wrap: wrap;
+
+        .description {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center ;
+        align-items: center;
+        }
+    }
+
+    footer .social-media {
+        justify-content: center;
+        margin-right: auto;
+    }
+
+    
+}

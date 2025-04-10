@@ -1,0 +1,98 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background: url('../images/bg-desktop.svg') no-repeat center center hsl(257, 40%, 49%);
+    background-size: cover;
+    color: #ffffff;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+header .logo {
+    margin: 40px 0 40px 40px;
+    width: 230px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ilustration,
+.description {
+    width: 50%;
+    padding: 8px;
+    min-width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ilustration {
+    padding-left: 30px;
+    display: flex;
+}
+
+.ilustration img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.description .title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    max-width: 450px;
+}
+
+.description .text {
+    padding: 8px;
+    max-width: 470px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-registre {
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid #000000;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-registre:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    gap: 15px;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+footer .social-media a {
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+footer .social-media a:hover,
+footer .social-media a:hover i {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
