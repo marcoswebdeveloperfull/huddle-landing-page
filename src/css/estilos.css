@@ -4,7 +4,13 @@ body {
     background-size: cover;
     color: #ffffff;
     max-width: 1900px;
+    height: 100vh;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 header .logo {
